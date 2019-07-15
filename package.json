@@ -1,0 +1,19 @@
+{
+  "name": "mongoose-project",
+  "version": "1.0.0",
+  "description": "project mongoose demo",
+  "main": "index.js",
+  "author": "fadhilahade",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.4",
+    "nodemon": "^1.19.1"
+  }
+}
