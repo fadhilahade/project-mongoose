@@ -15,7 +15,6 @@ if(!db){
     console.log("connected to database")
 }
 
-
 app.use("/", homeRouter)
 app.use('/user', userRouter)
 
